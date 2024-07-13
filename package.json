@@ -12,6 +12,9 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^13.12.0"
+    "cypress": "^13.13.0"
+  },
+  "dependencies": {
+    "cypress-plugin-tab": "^1.0.5"
   }
 }
