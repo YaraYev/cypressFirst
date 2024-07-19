@@ -18,7 +18,7 @@ module.exports = defineConfig({
       openMode: 0
     },
     baseUrl: 'https://guest:welcome2qauto@qauto.forstudy.space',
-    specPattern: 'cypress/integration/**/*.js',
+    specPattern: 'cypress/integration/**/*.spec.js',
     setupNodeEvents(on, config) {
     },
   },
