@@ -5,6 +5,7 @@ class GaragePage {
         cy.login(user.email, user.password)
     }
 
+
     addCar(brand, model, mileage) {
         cy.get('.panel-page_heading > .btn').click()
         cy.get('#addCarBrand').select(brand)
